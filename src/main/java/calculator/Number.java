@@ -2,7 +2,7 @@ package calculator;
 
 public class Number {
 
-    private int num;
+    private final int num;
 
     public Number(String raw) {
         validate(raw);
